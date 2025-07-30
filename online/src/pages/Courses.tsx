@@ -86,15 +86,16 @@ import CourseCard from '../components/CourseCard';
 const Courses:React.FC = () => {
  
   return (
-    <section className='max-w-[1280px] mx-auto px-4'>
-      <Card type='inner' title='Courses' className='w-[1280px]'>
-      <div className="w-full grid grid-cols-2 gap-[2rem]">
-  {coursesData.map((item) => (
-    <CourseCard key={item.id} item={item} />
-  ))}
-</div>
-      </Card>
-    </section>
+    <section className="max-w-[1280px] w-full mx-auto px-4">
+  <Card type="inner" title="Courses" className="w-full">
+    <div className="w-full grid grid-cols-1 sm:grid-cols-2  gap-6">
+      {coursesData.map((item) => (
+        <CourseCard key={item.id} item={item} />
+      ))}
+    </div>
+  </Card>
+</section>
+
   )
 }
 

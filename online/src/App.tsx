@@ -28,7 +28,7 @@ const App: React.FC = () => {
           </Routes>
         </Content>
         <Footer className="text-center text-gray-500 py-4 bg-gray-100">
-          BekjonUz ©{new Date().getFullYear()} – Barqaror Ta’lim Loyihasi
+          BekjonUz ©{new Date().getFullYear()} – Sustainable Education Project
         </Footer>
       </Layout>
     </Router>
