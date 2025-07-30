@@ -7,7 +7,7 @@ import { Layout } from "antd";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Course from "./pages/Course";
-import Progress from "./pages/Progress";
+import Profile from "./pages/Profile";
 
 // Componentlar
 import Header from "./components/Header";
@@ -24,7 +24,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/course/:id" element={<Course />} />
-            <Route path="/progress" element={<Progress />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </Content>
         <Footer className="text-center text-gray-500 py-4 bg-gray-100">

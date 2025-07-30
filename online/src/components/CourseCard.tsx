@@ -31,7 +31,7 @@ const CourseCard: React.FC<Props> = ({ item }) => {
         <div className="flex flex-col gap-[1rem]">
           <p>{item.description}</p>
           <Button type="primary" onClick={handleClick}>
-            Darsni boshlash
+            Start Lesson
           </Button>
         </div>
       </div>
