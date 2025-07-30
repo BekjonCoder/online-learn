@@ -14,21 +14,42 @@ interface LessonType {
 
 const allLessons: LessonType[] = [
   // Algebra
-  { id: 1, subjectId: 1, title: "Lesson 1: Basics of Algebra", desc: "Introduction to expressions and equations.", video: "https://www.youtube.com/embed/..." },
-  { id: 2, subjectId: 1, title: "Lesson 2: Linear Graphs", desc: "Understanding coordinates and graphs.", video: "https://www.youtube.com/embed/..." },
-  { id: 3, subjectId: 1, title: "Lesson 3: Quadratic Equations", desc: "Solving and analyzing quadratics.", video: "https://www.youtube.com/embed/..." },
-  { id: 4, subjectId: 1, title: "Lesson 4: Inequalities", desc: "Working with inequalities.", video: "https://www.youtube.com/embed/..." },
-  { id: 5, subjectId: 1, title: "Lesson 5: Word Problems", desc: "Applying algebra to real-world problems.", video: "https://www.youtube.com/embed/..." },
+  { id: 1, subjectId: 1, title: "Lesson 1: Basics of Algebra", desc: "Introduction to expressions and equations.", video: "https://www.youtube.com/embed/VIDEO1" },
+  { id: 2, subjectId: 1, title: "Lesson 2: Linear Graphs", desc: "Understanding coordinates and graphs.", video: "https://www.youtube.com/embed/VIDEO2" },
 
   // Geometry
-  { id: 1, subjectId: 2, title: "Lesson 1: Angles", desc: "Types of angles and measurements.", video: "https://www.youtube.com/embed/..." },
-  { id: 2, subjectId: 2, title: "Lesson 2: Shapes", desc: "Basic shapes and properties.", video: "https://www.youtube.com/embed/..." },
-  { id: 3, subjectId: 2, title: "Lesson 3: Areas", desc: "How to calculate areas.", video: "https://www.youtube.com/embed/..." },
-  { id: 4, subjectId: 2, title: "Lesson 4: Volumes", desc: "3D shape measurements.", video: "https://www.youtube.com/embed/..." },
-  { id: 5, subjectId: 2, title: "Lesson 5: Theorems", desc: "Famous geometry theorems explained.", video: "https://www.youtube.com/embed/..." },
+  { id: 1, subjectId: 2, title: "Lesson 1: Angles", desc: "Types of angles and measurements.", video: "https://www.youtube.com/embed/VIDEO3" },
+  { id: 2, subjectId: 2, title: "Lesson 2: Shapes", desc: "Basic shapes and properties.", video: "https://www.youtube.com/embed/VIDEO4" },
 
-  // ... boshqa fanlar ham xuddi shu tartibda (xohlasang ularni ham yozib beraman)
+  // Chemistry
+  { id: 1, subjectId: 3, title: "Lesson 1: Atoms and Elements", desc: "Introduction to atomic structure.", video: "https://www.youtube.com/embed/VIDEO5" },
+  { id: 2, subjectId: 3, title: "Lesson 2: Chemical Reactions", desc: "Understanding basic chemical reactions.", video: "https://www.youtube.com/embed/VIDEO6" },
+
+  // Physics
+  { id: 1, subjectId: 4, title: "Lesson 1: Motion and Forces", desc: "Basics of motion and Newton's laws.", video: "https://www.youtube.com/embed/VIDEO7" },
+  { id: 2, subjectId: 4, title: "Lesson 2: Energy", desc: "Different forms of energy and their uses.", video: "https://www.youtube.com/embed/VIDEO8" },
+
+  // Biology
+  { id: 1, subjectId: 5, title: "Lesson 1: Cells and Organisms", desc: "Structure and function of cells.", video: "https://www.youtube.com/embed/VIDEO9" },
+  { id: 2, subjectId: 5, title: "Lesson 2: Human Body Systems", desc: "Overview of body systems.", video: "https://www.youtube.com/embed/VIDEO10" },
+
+  // Technology
+  { id: 1, subjectId: 6, title: "Lesson 1: Digital Devices", desc: "Types and uses of digital devices.", video: "https://www.youtube.com/embed/VIDEO11" },
+  { id: 2, subjectId: 6, title: "Lesson 2: Internet Basics", desc: "How the internet works.", video: "https://www.youtube.com/embed/VIDEO12" },
+
+  // Literature
+  { id: 1, subjectId: 7, title: "Lesson 1: Poetry Basics", desc: "Understanding rhythm and rhyme.", video: "https://www.youtube.com/embed/VIDEO13" },
+  { id: 2, subjectId: 7, title: "Lesson 2: Fiction vs Non-Fiction", desc: "Comparing literary styles.", video: "https://www.youtube.com/embed/VIDEO14" },
+
+  // History
+  { id: 1, subjectId: 8, title: "Lesson 1: Ancient Civilizations", desc: "Exploring early human societies.", video: "https://www.youtube.com/embed/VIDEO15" },
+  { id: 2, subjectId: 8, title: "Lesson 2: World Wars", desc: "An overview of WWI and WWII.", video: "https://www.youtube.com/embed/VIDEO16" },
+
+  // English
+  { id: 1, subjectId: 9, title: "Lesson 1: Grammar Basics", desc: "Parts of speech and sentence structure.", video: "https://www.youtube.com/embed/VIDEO17" },
+  { id: 2, subjectId: 9, title: "Lesson 2: Vocabulary Skills", desc: "Building a stronger vocabulary.", video: "https://www.youtube.com/embed/VIDEO18" },
 ];
+  
 
 const Course: React.FC = () => {
   const navigate = useNavigate();
